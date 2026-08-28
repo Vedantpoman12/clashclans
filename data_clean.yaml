@@ -1,0 +1,7 @@
+path: C:/Users/vedan/Desktop/clasn/clash home manage - dead base detection.v1-mr-bob---dead-locater.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 26
+names: ['TH_10', 'TH_11', 'TH_12', 'TH_9', 'attack_button', 'builder_status_text', 'confirm_button', 'cross', 'dark_elixir_label', 'eagle_empty', 'eagle_loaded', 'elixier_label', 'end_battle_button', 'find_a_match_button', 'gold_label', 'hero_hall', 'hero_upgrade', 'inferno_empty', 'inferno_loaded', 'lab_status_text', 'my_dark_elixir_label', 'my_elixir_label', 'my_gold_label', 'next_button', 'suggested_upgrade_1', 'upgrade_button']

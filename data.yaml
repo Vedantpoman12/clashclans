@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 29
+names: ['attack', 'confirm', 'end battle', 'find a match', 'max elixer', 'max gold', 'okay', 'return home', 'surrender', 'upgrade', 'upgrade elixer', 'upgrade gold', 'wall 1', 'wall 10', 'wall 11', 'wall 12', 'wall 13', 'wall 14', 'wall 15', 'wall 16', 'wall 17', 'wall 2', 'wall 3', 'wall 4', 'wall 5', 'wall 6', 'wall 7', 'wall 8', 'wall 9']
+
+roboflow:
+  workspace: clash-of-clan
+  project: clash-of-clan-vzsst
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/clash-of-clan/clash-of-clan-vzsst/dataset/6

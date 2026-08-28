@@ -1,0 +1,25 @@
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch & YOLO cache
+*.pt
+!runs/detect/clash_detector/weights/best.pt
+yolov8n.pt
+yolo26n.pt
+
+# Datasets (large image folders)
+images/
+labels/
+train/
+valid/
+test/
+clash home manage - dead base detection.v1-mr-bob---dead-locater.yolov8/train/
+clash home manage - dead base detection.v1-mr-bob---dead-locater.yolov8/valid/
+clash home manage - dead base detection.v1-mr-bob---dead-locater.yolov8/test/
+
+# OS / IDE
+.vscode/
+.idea/
+*.log
